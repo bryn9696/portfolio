@@ -23,7 +23,7 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 10rem;
+  left: 0rem;
   bottom: 3rem;
 }
 
@@ -47,9 +47,25 @@ header {
 
 .scroll__down {
   position: absolute;
-  right: 10rem;
+  right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .header__socials, .scroll__down {
+    display: none;
+  }
 }
