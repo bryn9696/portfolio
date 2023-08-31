@@ -2,7 +2,8 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/shirt.png'
 import WIS from '../../assets/wisley.png'
-import {FaAward} from 'react-icons/fa'
+import {FaHeart} from 'react-icons/fa'
+import { FaAward } from 'react-icons/fa';
 import {MdPeopleOutline} from 'react-icons/md'
 import {AiFillCode} from 'react-icons/ai'
 

@@ -3,9 +3,10 @@ import './nav.css'
 import {AiOutlineHome} from 'react-icons/ai'
 import {BiUserCircle} from 'react-icons/bi'
 import {BsJournalBookmarkFill} from 'react-icons/bs'
-import {AiFillFolderOpen} from 'react-icons/ai'
+import {FaHeart} from 'react-icons/ai'
 import {AiOutlineContacts} from 'react-icons/ai'
 import { useState } from 'react'
+import { AiFillFolderOpen } from 'react-icons/ai';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')

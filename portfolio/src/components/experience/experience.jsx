@@ -1,6 +1,7 @@
 import React from 'react'
 import './experience.css'
-import {BiBadgeCheck} from 'react-icons/bi'
+import {BiHeart} from 'react-icons/bi'
+import { BiBadgeCheck } from 'react-icons/bi';
 
 const Experience = () => {
   return (
