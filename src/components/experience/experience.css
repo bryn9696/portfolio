@@ -47,21 +47,42 @@
 }
 
 @media screen and (max-width: 1024px) {
+  
+  section.experience {
+    margin-top: 500rem;
+    height: 10vh;
+    margin-top: 100;
+  }
+  
+  .experience__container {
+    margin-left: 5%;
+  }
   .experience__container > div {
     width: 80%;
     padding: 2rem;
     margin: 0 auto;
+
   }
 
   .experience__content {
     padding: 1rem;
+
+
   }
+
 }
 
 @media screen and (max-width: 600px) {
+  section.experience{
+
+    height: 100vh;
+  }
+  
   .experience__container > div {
     width: 100%;
     padding: 2rem 1rem;
-    margin-bottom: 4rem;
+
   }
+
+
 }

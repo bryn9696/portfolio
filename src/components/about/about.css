@@ -5,6 +5,7 @@
   grid-template-columns: 1fr 1fr; /* Create a two-column layout */
   gap: 2rem;
   align-items: center;
+
 }
 
 .about__me {
@@ -91,6 +92,7 @@
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
+    margin-bottom: 100;
   }
 
   .about__me {
@@ -104,6 +106,14 @@
 }
 
 @media screen and (max-width: 600px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 100;
+    margin-left: 5%;
+    
+  }
+
   .about__me {
     width: 65%;
     margin: 0rem auto 3rem;
@@ -116,6 +126,7 @@
 
   .about__content {
     text-align: center;
+    margin-bottom: 100;
   }
 
   .about__content p {
