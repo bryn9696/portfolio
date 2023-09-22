@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1840519b.css",
+    "main.js": "/static/js/main.b7575da6.js",
+    "static/media/wisley.png": "/static/media/wisley.f95ce8ae06a74d03abc4.png",
+    "static/media/shirt.png": "/static/media/shirt.4cdb8578628e48746b41.png",
+    "static/media/screen.png": "/static/media/screen.aaedc85f2f7314fe3bab.png",
+    "static/media/me.png": "/static/media/me.124234a9be08cbd9f05b.png",
+    "static/media/CV.pdf": "/static/media/CV.e87a9409654f37aaddc1.pdf",
+    "index.html": "/index.html",
+    "main.1840519b.css.map": "/static/css/main.1840519b.css.map",
+    "main.b7575da6.js.map": "/static/js/main.b7575da6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1840519b.css",
+    "static/js/main.b7575da6.js"
+  ]
+}

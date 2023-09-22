@@ -1,0 +1,94 @@
+/* portfolio.css */
+
+.portfolio__container {
+  display: grid;
+  width: 50%;
+  height: 10%;
+  text-align: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  margin-top: 0rem;
+  margin-left: 25%;
+  /* margin-bottom: 10; */
+}
+
+h2,
+h5 {
+  font-weight: 500;
+  /* text-align: center; */
+}
+
+.portfolio__item {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.portfolio__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+  cursor: pointer;
+}
+
+.portfolio__item-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.portfolio__item-image img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio__item h3 {
+  margin: 1.2rem 0 1.2rem;
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+
+.portfolio__item-cta {
+  display: flex;
+  flex-direction: column; /* Adjusted to make it a vertical stack */
+  align-items: center; /* Center-aligning child elements */
+  gap: 0.5rem; /* Adjusted to control the vertical gap between child elements */
+}
+
+.portfolio__item-cta a {
+  text-decoration: none;
+  padding: 0.3rem 1rem; /* Adjusted the padding */
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.portfolio__item-cta a.btn {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.portfolio__item-cta a.btn-primary {
+  color: var(--color-light);
+  background-color: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
