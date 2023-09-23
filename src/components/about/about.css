@@ -92,7 +92,7 @@
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
-    margin-bottom: 100;
+    margin-bottom: -50;
   }
 
   .about__me {
@@ -109,7 +109,7 @@
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
-    margin-bottom: 100;
+    margin-bottom: -50;
     margin-left: 5%;
     
   }
@@ -126,7 +126,7 @@
 
   .about__content {
     text-align: center;
-    margin-bottom: 100;
+    /* margin-bottom: 100; */
   }
 
   .about__content p {

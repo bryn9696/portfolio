@@ -49,13 +49,16 @@
 @media screen and (max-width: 1024px) {
   
   section.experience {
-    margin-top: 500rem;
-    height: 10vh;
-    margin-top: 100;
+    /* margin-top: 500rem; */
+    /* height: 10vh; */
+    /* margin-bottom: -300rem; */
+
   }
   
   .experience__container {
     margin-left: 5%;
+    margin-top: -50rem;
+    margin-bottom: 10rem;
   }
   .experience__container > div {
     width: 80%;
@@ -74,8 +77,8 @@
 
 @media screen and (max-width: 600px) {
   section.experience{
-
-    height: 100vh;
+    margin-top: -40rem;
+    /* height: 100vh; */
   }
   
   .experience__container > div {

@@ -83,10 +83,11 @@ h5 {
   .portfolio__container {
     grid-template-columns: 1fr;
     gap: 1.2rem;
-    margin-top: -40rem;
+    margin-top: -50rem;
+    margin-bottom: -50rem;
   }
   section {
-    margin-top: -10rem;
+    margin-top: 10rem;
     /* margin-bottom: -60rem; */
   }
 }
@@ -95,6 +96,6 @@ h5 {
   .portfolio__container {
     grid-template-columns: 1fr;
     gap: 1rem;
-    margin-top: 100;
+    margin-top: 110;
   }
 }

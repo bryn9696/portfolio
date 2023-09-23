@@ -7,7 +7,7 @@ const Experience = () => {
     <section id='experience'>
 
       <h5>My Skills</h5>
-      <h1>My Experience</h1>
+      <h2>My Experience</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -62,7 +62,7 @@ const Experience = () => {
               <BiBadgeCheck className='experience__details-icon'/>
               <div>
                 <h4>Java</h4>
-                <small className='text-light'>Intermeddiate</small>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
 
